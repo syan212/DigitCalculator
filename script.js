@@ -20,9 +20,9 @@ function back(){
             }
 //Complex mode
 function complex(){
-                  var checkBox = document.getElementById("complexcheck");
+                  var checkBox = document.getElementByClass("complexcheck");
                    // Get the output text
-                  var text = document.getElementById("complex");
+                  var text = document.getElementByClass("complex");
 
                   // If the checkbox is checked, display the output text
                   if (checkBox.checked == true){
