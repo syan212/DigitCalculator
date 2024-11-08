@@ -19,7 +19,7 @@ function back(){
                 document.form.textview.value = exp.substring(0,exp.length-1);
             }
 //Complex mode
-function myFunction(id,pid) {
+function complex(id,pid) {
     //Checkbox
     var checkBox = document.getElementById(id);
     //Text
