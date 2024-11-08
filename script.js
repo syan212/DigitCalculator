@@ -19,16 +19,17 @@ function back(){
                 document.form.textview.value = exp.substring(0,exp.length-1);
             }
 //Complex mode
-function complex(){
-                  var checkBox = document.getElementByClassName("complexcheck");
-                   // Get the output text
-                  var text = document.getElementByClassName("complex");
-
-                  // If the checkbox is checked, display the output text
-                  if (checkBox.checked == true){
-                    text.style.display = "block";
-                  } else {
-                    text.style.display = "none";
-                  }
+function myFunction(id,pid) {
+    //Checkbox
+    var checkBox = document.getElementById(id);
+    //Text
+    var text = document.getElementById(pid);
+    //If statement
+    if (checkBox.checked == true){
+        text.style.display = "block";
+    } else {
+       text.style.display = "none";
+    }
 }
+
 
