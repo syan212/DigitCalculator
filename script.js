@@ -30,9 +30,9 @@ function tan(x){
 }
 //Factorials
 function fact(x){
-              var = 1;
+              var banana = 1;
               for (let i = 2; i <= x; i++) {
-                  var *= i;
+                  var banana *= i;
               }
               document.form.textview.value = var;
 }
