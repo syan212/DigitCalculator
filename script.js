@@ -47,7 +47,7 @@ function fact(num) {
 }
 //Negative
 function neg(x){
-      x -= x*2;
+      x = x-x*2;
       document.form.textview.value = x;
 }
 //Complex mode
