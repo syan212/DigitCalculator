@@ -19,11 +19,11 @@ function back(){
                 document.form.textview.value = exp.substring(0,exp.length-1);
             }
 //Complex mode
-function complex(id,pid) {
+function complex() {
     //Checkbox
-    var checkBox = document.getElementById(id);
+    var checkBox = document.getElementById("complexcheck");
     //Text
-    var text = document.getElementById(pid);
+    var text = document.getElementById("complex");
     //If statement
     if (checkBox.checked == true){
         text.style.display = "block";
