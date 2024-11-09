@@ -18,6 +18,16 @@ function back(){
                 var exp = document.form.textview.value;
                 document.form.textview.value = exp.substring(0,exp.length-1);
             }
+//Sin,cos,tan
+function sin(x){
+              document.form.textview.value = Math.sin(x * Math.PI / 180);
+}
+function cos(x){
+              document.form.textview.value = Math.cos(x * Math.PI / 180);
+}
+function tan(x){
+              document.form.textview.value = Math.tan(x * Math.PI / 180);
+}
 //Complex mode
 function complex() {
     //Checkbox
