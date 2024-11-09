@@ -45,6 +45,11 @@ function fact(num) {
   }
   document.form.textview.value = num;
 }
+//Negative
+function neg(x){
+      x -= x*2;
+      document.form.textview.value = x;
+}
 //Complex mode
 function complex() {
     //Checkbox
