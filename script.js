@@ -50,6 +50,10 @@ function neg(x){
       x = x-x*2;
       document.form.textview.value = x;
 }
+//Natural log
+function ln(x){
+      document.form.textview.value = Math.log(x);
+}
 //Complex mode
 function complex() {
     //Checkbox
