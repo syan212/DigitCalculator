@@ -20,12 +20,15 @@ function back(){
             }
 //Sin,cos,tan
 function sin(x){
+              equal();
               document.form.textview.value = Math.sin(x * Math.PI / 180);
 }
 function cos(x){
+              equal();
               document.form.textview.value = Math.cos(x * Math.PI / 180);
 }
 function tan(x){
+              equal();
               document.form.textview.value = Math.tan(x * Math.PI / 180);
 }
 //Factorials
