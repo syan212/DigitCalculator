@@ -34,7 +34,7 @@ function fact(x){
               for (let i = 2; i <= x; i++) {
                   var banana *= i;
               }
-              document.form.textview.value = var;
+              document.form.textview.value = banana;
 }
 //Complex mode
 function complex() {
