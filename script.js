@@ -32,7 +32,7 @@ function tan(x){
 function fact(x){
               var banana = 1;
               for (let i = 2; i <= x; i++) {
-                  var banana *= i;
+                  banana *= i;
               }
               document.form.textview.value = banana;
 }
