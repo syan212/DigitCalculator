@@ -50,9 +50,15 @@ function neg(x){
       x = x-x*2;
       document.form.textview.value = x;
 }
-//Natural log
+//Logs
 function ln(x){
       document.form.textview.value = Math.log(x);
+}
+function logten(x){
+      document.form.textview.value = Math.log10(x);
+}
+function logtwo(x){
+      document.form.textview.value = Math.log2(x);
 }
 //Complex mode
 function complex() {
