@@ -28,6 +28,15 @@ function cos(x){
 function tan(x){
               document.form.textview.value = Math.tan(x * Math.PI / 180);
 }
+//Factorials
+function factorialize(num) {
+  if (num === 0 || num === 1)
+    document.form.textview.value = 1;
+  for (var i = num - 1; i >= 1; i--) {
+    num *= i;
+  }
+  document.form.textview.value = num;
+}
 //Complex mode
 function complex() {
     //Checkbox
