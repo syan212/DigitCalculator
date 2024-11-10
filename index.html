@@ -4,7 +4,7 @@
         <style>
             .main{
                 position: absolute;
-		bottom: 311px;
+		bottom: 340px;
             }
  
             *{
@@ -28,7 +28,7 @@
 	    }
 	    #complex{
 		left:228px;
-		bottom:336px;
+		bottom:340px;
 		position:absolute;
 	    }
  
@@ -55,6 +55,9 @@
 		    width:100px;
 		    border-top-right-radius:14px;
 		    border-top-left-radius:14px;
+	    }
+	    .check{
+		    bottom:311px;
 	    }
         </style>
         <title>DigitCalculator</title>
@@ -109,9 +112,11 @@
                     </tr>
                 </table>
             </form>
-          <form>
+	</div>
+	<div class="check">
+	<form>
 		Scientific mode<input type="checkbox" id="complexcheck" onclick="complex()">
-          </form>
+        </form>
 	</div>
 	<div id="complex" style="display:none">
 	<table>
