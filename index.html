@@ -50,7 +50,7 @@
 	    }
 	    .tabs{
 		    background-color:white;
-		    border-style:none none solid none;
+		    border:2px solid;
 		    height:37px;
 		    width:100px;
 		    border-top-right-radius:14px;
@@ -60,11 +60,8 @@
 		    position:absolute;
 		    bottom:326px;
 	    }
-	    img{
-		background-color:LightGray;
-	    }
-	    h3{
-		background-color:LightGray;
+	    .top{
+		  background-color:LightGray;  
 	    }
         </style>
         <title>DigitCalculator</title>
@@ -75,8 +72,10 @@
         </head>
  
     <body>
-            <img src="Images/banner.png" width="450" height="60">
+            <div class="top">
+	    <img src="Images/banner.png" width="450" height="60">
 	    <h3>DigitCalculator</h3>
+	    </div>
             <div>
 		<form>
 			<input class ="tabs" type="button" value="Calculator">
