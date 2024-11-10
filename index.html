@@ -48,6 +48,9 @@
 		    position:absolute;
 		    bottom:10px;
 	    }
+	    .tabs{
+		    background-color:gray;
+	    }
         </style>
         <title>DigitCalculator</title>
         <meta charset="UTF-8">
@@ -59,7 +62,12 @@
     <body>
             <img src="Images/banner.png" width="450" height="60">
 	    <h3>DigitCalculator</h3>
-            <div class ="main">
+            <div>
+		<form>
+			<input class ="tabs" type="button" value="Calculator">
+		</form>    
+	    </div>
+	    <div class ="main">
                 <form name="form">
                     <input class="textview" readonly name="textview">
                 </form>
