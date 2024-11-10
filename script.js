@@ -60,6 +60,18 @@ function logten(x){
 function logtwo(x){
       document.form.textview.value = Math.log2(x);
 }
+//1/x
+function over(x){
+      document.form.textview.value = 1/x;
+}
+//10 to the power of x
+function tenpower(x){
+     document.form.textview.value = 10**x;
+}
+//e to the power of x
+function epower(x){
+     document.form.textview.value = Math.E**x;
+}
 //Complex mode
 function complex() {
     //Checkbox
