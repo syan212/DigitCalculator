@@ -94,8 +94,8 @@ function opentab(evt, tab) {
     tabcontent[i].style.display = "none";
   }
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName(tab);
+  // Get all elements with class="tabs" and remove the class "active"
+  tablinks = document.getElementsByClassName("tabs");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
