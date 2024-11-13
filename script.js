@@ -104,3 +104,4 @@ function opentab(evt, tab) {
   document.getElementById(tab).style.display = "block";
   evt.currentTarget.className += " active";
 }
+document.getElementById("calculator").click();
