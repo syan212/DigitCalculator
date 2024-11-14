@@ -85,5 +85,3 @@ function complex() {
        text.style.display = "none";
     }
 }
-function opentab(evt, tab) {
-  var i, tabcontent, tablinks;
