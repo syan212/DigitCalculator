@@ -136,53 +136,50 @@
 			<td> <input class ="button" type="button" value="+/-" onclick="neg(document.form.textview.value)"> </td>
                     </tr>
                 </table>
-            </form>
-	</div>
-	<div class="check">
-	<form>
-		Scientific mode<input type="checkbox" id="complexcheck" onclick="complex()">
-        </form>
-	</div>
-	<div id="complex" style="display:none">
-	<table>
-		<tr>
-		    <td> <input class ="button" type="button" value="x^y" onclick="insert('**')"> </td>
-        	    <td> <input class ="button" type="button" value="π" onclick="insert(Math.PI)"> </td>
-                    <td> <input class="button" type="button" value="e" onclick="insert(Math.E)"> </td>
-		</tr>
-		<tr>
-		    <td> <input class ="button" type="button" value="sin" onclick="sin(document.form.textview.value)"> </td>
-        	    <td> <input class ="button" type="button" value="cos" onclick="cos(document.form.textview.value)"> </td>
-                    <td> <input class="button" type="button" value="tan" onclick="tan(document.form.textview.value)"> </td>
-		</tr>
-		<tr>
-		    <td> <input class ="button" type="button" value="x!" onclick="fact(document.form.textview.value)"> </td>
-        	    <td> <input class ="button" type="button" value="√" onclick="sqrt(document.form.textview.value)"> </td>
-                    <td> <input class="button" type="button" value="∛" onclick="cbrt(document.form.textview.value)"> </td>
-		</tr>
-		<tr>
-		    <td> <input class ="button" type="button" value="ln" onclick="ln(document.form.textview.value)"> </td>
-        	    <td> <input class ="button" type="button" value="log₂()" onclick="logtwo(document.form.textview.value)"> </td>
-                    <td> <input class="button" type="button" value= "log₁₀()" onclick="logten(document.form.textview.value)"> </td>
-		</tr>
-		<tr>
-		    <td> <input class ="button" type="button" value="1/x" onclick="over(document.form.textview.value)"> </td>
-        	    <td> <input class ="button" type="button" value="10ˣ" onclick="tenpower(document.form.textview.value)"> </td>
-                    <td> <input class="button" type="button" value="eˣ" onclick="epower(document.form.textview.value)"> </td>
-		</tr>
-	</table>
-	</div>
-	<div class="bottom">
-	       <b><a href="Sites/credits.html">Credits</a></b>
-	</div>
-        <div>
-	      <form name="note" class="notepad">
-                    <p><label for="notepad">Notepad</label></p>
-                    <textarea name="notepad" rows="17" cols="50"></textarea>
-              </form>
-	</div>
-	</div>
+            	</form>
+		<div class="check">
+		<form>
+			Scientific mode<input type="checkbox" id="complexcheck" onclick="complex()">
+	        </form>
+		</div>
+		<div id="complex" style="display:none">
+		<table>
+			<tr>
+			    <td> <input class ="button" type="button" value="x^y" onclick="insert('**')"> </td>
+	        	    <td> <input class ="button" type="button" value="π" onclick="insert(Math.PI)"> </td>
+	                    <td> <input class="button" type="button" value="e" onclick="insert(Math.E)"> </td>
+			</tr>
+			<tr>
+			    <td> <input class ="button" type="button" value="sin" onclick="sin(document.form.textview.value)"> </td>
+	        	    <td> <input class ="button" type="button" value="cos" onclick="cos(document.form.textview.value)"> </td>
+	                    <td> <input class="button" type="button" value="tan" onclick="tan(document.form.textview.value)"> </td>
+			</tr>
+			<tr>
+			    <td> <input class ="button" type="button" value="x!" onclick="fact(document.form.textview.value)"> </td>
+	        	    <td> <input class ="button" type="button" value="√" onclick="sqrt(document.form.textview.value)"> </td>
+	                    <td> <input class="button" type="button" value="∛" onclick="cbrt(document.form.textview.value)"> </td>
+			</tr>
+			<tr>
+			    <td> <input class ="button" type="button" value="ln" onclick="ln(document.form.textview.value)"> </td>
+	        	    <td> <input class ="button" type="button" value="log₂()" onclick="logtwo(document.form.textview.value)"> </td>
+	                    <td> <input class="button" type="button" value= "log₁₀()" onclick="logten(document.form.textview.value)"> </td>
+			</tr>
+			<tr>
+			    <td> <input class ="button" type="button" value="1/x" onclick="over(document.form.textview.value)"> </td>
+	        	    <td> <input class ="button" type="button" value="10ˣ" onclick="tenpower(document.form.textview.value)"> </td>
+	                    <td> <input class="button" type="button" value="eˣ" onclick="epower(document.form.textview.value)"> </td>
+			</tr>
+		</table>
+		</div>
+		<div class="bottom">
+		       <b><a href="Sites/credits.html">Credits</a></b>
+		</div>
+	        <div>
+		      <form name="note" class="notepad">
+	                    <p><label for="notepad">Notepad</label></p>
+	                    <textarea name="notepad" rows="17" cols="50"></textarea>
+	              </form>
+		</div>
+		</div>
         </body>
-    
 </html>
-  
