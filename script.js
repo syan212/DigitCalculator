@@ -5,10 +5,13 @@ function insert(num){
 //Equal
 function equal(){
                 var exp = document.form.textview.value;
+                if (eval(exp)==NaN){
+                            document.form.textview.value = "Syntax error";
+                }
                 if (exp){
                     document.form.textview.value = eval(exp);
                 }
-            }
+}
  //Clear
 function clean(){
               document.form.textview.value = " ";
