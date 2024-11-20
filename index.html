@@ -79,6 +79,9 @@
 		    h3{
 				margin:1px;
 		    }
+			.base{
+				height:292px;
+			}
         </style>
         <title>DigitCalculator</title>
         <meta charset="UTF-8">
@@ -103,6 +106,7 @@
 				<form name="form">
 			        <input class="textview" readonly name="textview">
 			    </form>
+				<div class="base">
 				<form>
 			        <table>
 			            <tr>
@@ -169,14 +173,15 @@
 						    <td> <input class="button" type="button" value="eˣ" onclick="epower(document.form.textview.value)"> </td>
 						</tr>
 						</table>
-					</div>
-					<form name="note" class="notepad">
-					    <p><label for="notepad">Notepad</label></p>
-					    <textarea name="notepad" rows="17" cols="50"></textarea>
-					</form>
-					<div class="bottom">
-						<b><a href="Sites/credits.html">Credits</a></b>
-					</div>
 				</div>
-	    </body>
+				</div>
+				<form name="note" class="notepad">
+					<p><label for="notepad">Notepad</label></p>
+					<textarea name="notepad" rows="17" cols="50"></textarea>
+				</form>
+				<div class="bottom">
+					<b><a href="Sites/credits.html">Credits</a></b>
+				</div>
+			</div>
+	</body>
 </html>
