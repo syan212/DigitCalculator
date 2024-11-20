@@ -8,7 +8,7 @@ function equal(){
                 if (eval(exp)==NaN){
                             document.form.textview.value = "Syntax error";
                 }
-                if (exp){
+                else if (exp){
                     document.form.textview.value = eval(exp);
                 }
 }
