@@ -96,7 +96,7 @@ function opentaby(evt, tab) {
     tabcontent[i].style.display = "none";
   }
   
-  tablinks = document.getElementsByClassName("tabs");
+  tabs = document.getElementsByClassName("tabs");
   for (i = 0; i < tablinks.length; i++) {
     tabs[i].className = tabs[i].className.replace(" active", "");
   }
