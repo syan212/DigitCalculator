@@ -7,6 +7,6 @@ Syan212:Owner and main person
 
 Projectguy100:Made two pull requests
 
-TheGeek1307:Made the base code and helped with issues
+TheGeek1307:Made the base code(simple calculator) and helped with issues
 
 Bye!
