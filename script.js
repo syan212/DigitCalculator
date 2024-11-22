@@ -89,7 +89,7 @@ function complex() {
     }
 }
 function opentaby(evt, tab) {
-  var i, tabcontent, tablinks;
+  var i, tabcontent, tabs;
   
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
