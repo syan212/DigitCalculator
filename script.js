@@ -88,7 +88,7 @@ function complex() {
        text.style.display = "none";
     }
 }
-function opentaby(evt, tab) {
+function opentab(evt, tab) {
   var i, tabcontent, tabs;
   
   tabcontent = document.getElementsByClassName("tabcontent");
