@@ -88,3 +88,19 @@ function complex() {
        text.style.display = "none";
     }
 }
+function opentaby(evt, tab) {
+  var i, tabcontent, tablinks;
+  
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  
+  tablinks = document.getElementsByClassName("tabs");
+  for (i = 0; i < tablinks.length; i++) {
+    tabs[i].className = tabs[i].className.replace(" active", "");
+  }
+
+  document.getElementById(tab).style.display = "block";
+  evt.currentTarget.className += " active";
+}
