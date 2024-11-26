@@ -79,6 +79,7 @@ h3{
 
 .base > * {
   	display: table-cell;
+	height:272px;
 }
 
 .simple{
