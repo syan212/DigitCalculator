@@ -105,7 +105,7 @@ function opentab(evt, tab) {
   evt.currentTarget.className += " active";
 }
 function filterTextarea() {
-  var notepad = document.getElementById('notepad');
+  var notepad = document.getElementByClassName('notepad');
   var matches = notepad.value.match(<shit>);
 
   if (matches) {
@@ -114,4 +114,4 @@ function filterTextarea() {
     return;
   }
 }
-document.getElementById('notepad').addEventListener('keyup', filterTextarea, false);
+document.getElementByClassName('notepad').addEventListener('keyup', filterTextarea, false);
