@@ -104,3 +104,14 @@ function opentab(evt, tab) {
   document.getElementById(tab).style.display = "block";
   evt.currentTarget.className += " active";
 }
+function filterTextarea() {
+  var notepad = document.getElementById('notepad');
+  var matches = notepad.value.match(<shit>);
+
+  if (matches) {
+    alert('Hey, no bad words!');
+    notepad.value = '';
+    return;
+  }
+}
+document.getElementById('notepad').addEventListener('keyup', filterTextarea, false);
