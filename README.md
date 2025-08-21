@@ -1,4 +1,6 @@
 # DigitCalculator
+> This is now archived
+
 A calculator project. Please don't copy but forks are allowed. STILL IN DEVELOPMENT!
 
 Credits: 
